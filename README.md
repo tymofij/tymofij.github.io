@@ -1,6 +1,7 @@
 Talks
 ====
 
+* July 2017 - EuroPython, Rimini - [Front-end testing with Python](https://ep2017.europython.eu/conference/talks/front-end-testing-with-python)
 * October 2015 – PyCon, Warsaw – [Data Science toolkit: NumPy, Pandas, Scikit-learn](https://github.com/tymofij/datascience-pandas-talk-pycon-pl)
 * November 2014 – Lviv.py – [Selenium PageObject: Bok-Choy](http://clear.com.ua/talks/bok-choy.pdf)
 * June 2013 – Lviv.py – [Creating application-specific APIs on top of Django ORM](http://clear.com.ua/talks/pretty_orm.pdf)
