@@ -81,3 +81,7 @@ This method utilizes the CPU to near 100% capability, and thus greatly improves 
 Of course, this reaps most benefits when there are lots of waiting time to optimize. Usually, there are, disk reads, database access, and network requests take a lot of time of typical web application.
 
 With coroutines we can get rid of that waiting time and serve another customer meanwhile, using CPU much more effectively, easily serving tens of thousands of requests per second.
+
+---
+
+© [Tim Babych](http://clear.com.ua) — <a href="https://twitter.com/tymofiy">@tymofiy</a>
