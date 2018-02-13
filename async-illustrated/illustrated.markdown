@@ -4,7 +4,7 @@
     img {margin: 0 auto; display:block;}
 </style>
 
-Asynchronicity Illustrated
+Coroutines Illustrated
 ==========================
 
 Imagine a cook in the kitchen, cooking three dishes. A steak, some boiled eggs and a salad. A cook with one-track mind could do only one dish at a time, defrosting meat, slicing it, putting it in the oven, waiting for it to be ready and only then proceeding to take eggs from the fridge, boil them, peels them, finally gets to do the salad.
@@ -66,3 +66,7 @@ Such polite functions are called **coroutines**. A co-routine is a function that
 This method utilizes the CPU to near 100% capability, and thus greatly improves the application’s performance.
 
 <img src="tasks.png" style="width:600px">
+
+Of course this reaps most benefits when there are lots of waiting time to optimize. Usually there are, disk reads, database access and network requests take a lot of time of typical web application.
+
+With coroutines we can get rid of that waiting time and serve another customer meanwhile, using CPU much more effectively, easily serving tens of thousands requests per second.
