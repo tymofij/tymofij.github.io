@@ -1,6 +1,15 @@
 <meta charset="utf-8" />
 <style>
-    body {margin: 1em auto; width: 50em; }
+    body {
+        margin: 1em auto; width: 50em;
+        color: #666;
+        line-height: 1.55;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        font-family: Georgia, serif;
+        text-align: center;
+    }
     img {margin: 0 auto; display:block;}
 </style>
 <h1>Coroutines Illustrated</h1>
@@ -28,7 +37,7 @@ To save time, we need to execute them in a more complex pattern, juggling them t
 <p>It would be great if the switches would occur not at fixed time slices, scheduled by an over-watching system (so-called preemptive multitasking), but exactly at the time the task has completed its current job and starts waiting for the next action. That would be the  perfect moment for this task to allow another task to be passed to the CPU. Such behavior is called “cooperative multitasking.”</p>
 <img src="cooperative.png" style="width:450px">
 <p>Instead of Scheduler guy with a timeclock we have the Loop guy to whom tasks are instantly giving back control when they have nothing to do.</p>
-<p>
+<p style="font-size:smaller; margin-left:5em;">
 – Dave, you open? <br/>
 – Nah <br/>
 <br/>

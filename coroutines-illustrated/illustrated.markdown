@@ -1,6 +1,15 @@
 <meta charset="utf-8" />
 <style>
-    body {margin: 1em auto; width: 50em; }
+    body {
+        margin: 1em auto; width: 50em;
+        color: #666;
+        line-height: 1.55;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        font-family: Georgia, serif;
+        text-align: center;
+    }
     img {margin: 0 auto; display:block;}
 </style>
 
@@ -44,7 +53,7 @@ It would be great if the switches would occur not at fixed time slices, schedule
 
 Instead of Scheduler guy with a timeclock we have the Loop guy to whom tasks are instantly giving back control when they have nothing to do.
 
-<p>
+<p style="font-size:smaller; margin-left:5em;">
 – Dave, you open? <br/>
 – Nah <br/>
 <br/>
