@@ -13,6 +13,7 @@
     }
     img {margin: 0 auto; display:block;}
 </style>
+<title>Coroutines Illustrated</title>
 
 Coroutines Illustrated
 ==========================
