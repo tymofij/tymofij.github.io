@@ -9,6 +9,7 @@
     h1 {
         font-family: Georgia, serif;
         text-align: center;
+        color: #333;
     }
     img {margin: 0 auto; display:block;}
 </style>
