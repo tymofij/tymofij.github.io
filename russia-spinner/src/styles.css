@@ -82,3 +82,9 @@ body {
   background: white;
   padding: 10px;
 }
+
+#botinok {
+  position:absolute;
+  width: 250px;
+  bottom:0; right: 0px;
+}
