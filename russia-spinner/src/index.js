@@ -1,14 +1,16 @@
-let sectors = []
+const sectors = []
 
-colors = ["Tomato", "gold"]
-text = ["white", "black"]
-n = colors.length
+const colors = ["tomato", "gold"]
+const text = ["white", "black"]
+const n = colors.length
 
-i = 0
+const today = new Date();
 for (let year=2022; year <= 2024; year++) {
   for (let month=1; month <= 12; month++) {
-    i++
     d = new Date(year, month, 1);
+    if (d > today) {
+      break
+    }
     label = d.toLocaleString('default', { month: 'long' }) + " " + d.getFullYear()
     startISO = d.toISOString().slice(0,10)
     endISO = new Date(year, month, 30).toISOString().slice(0,10)
