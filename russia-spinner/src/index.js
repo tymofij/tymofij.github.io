@@ -1,4 +1,4 @@
-const sectors = []
+let sectors = []
 
 colors = ["red", "gold"]
 text = ["white", "black"]
@@ -12,8 +12,21 @@ for (let year=2022; year <= 2024; year++) {
     label = d.toLocaleString('default', { month: 'long' }) + " " + d.getFullYear()
     startISO = d.toISOString().slice(0,10)
     endISO = new Date(year, month, 30).toISOString().slice(0,10)
-    sectors.push({ color: colors[i % n], text: text[i % n], label: label, start: startISO, end: endISO })
+    sectors.push({label: label, start: startISO, end: endISO })
   }
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i >= 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+shuffleArray(sectors)
+for (let i=0; i < sectors.length; i++) {
+  sectors[i].color = colors[i % n]
+  sectors[i].text = text[i % n]
 }
 
 const events = {
