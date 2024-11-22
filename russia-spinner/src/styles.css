@@ -70,3 +70,15 @@ body {
   flex-basis: 100%;
   flex: 1;
 }
+
+#note {
+  font: 16px sans-serif;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 280px;
+  height: 40px;
+  background: white;
+  padding: 10px;
+}
