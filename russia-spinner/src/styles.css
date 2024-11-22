@@ -48,15 +48,6 @@ body {
   transition: 0.8s;
 }
 
-#spin::after {
-  content: "";
-  position: absolute;
-  top: -24px;
-  border: 20px solid transparent;
-  border-bottom-color: currentColor;
-  border-top: none;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -87,4 +78,13 @@ body {
   position:absolute;
   width: 250px;
   bottom:0; right: 0px;
+}
+
+#arrow {
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-top: -30px;
+  top: 50%;
+  margin-left: 120px;
 }

@@ -1,6 +1,6 @@
 let sectors = []
 
-colors = ["red", "gold"]
+colors = ["Tomato", "gold"]
 text = ["white", "black"]
 n = colors.length
 
@@ -60,7 +60,7 @@ let ang = 0; // Angle in radians
 
 let spinButtonClicked = false;
 
-const getIndex = () => Math.floor(tot - (ang / TAU) * tot) % tot;
+const getIndex = () => Math.floor(tot - ((ang - PI/2)/ TAU) * tot) % tot;
 
 function drawSector(sector, i) {
   const ang = arc * i;
