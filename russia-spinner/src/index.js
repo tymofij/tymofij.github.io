@@ -131,6 +131,6 @@ function init() {
 init();
 
 events.addListener("spinEnd", (sector) => {
-  s = `russian threatens nuclear war after:${sector.start} before:${sector.end}`
+  s = `russia threatens nuclear war after:${sector.start} before:${sector.end}`
   window.open("https://www.google.com/search?q=" + encodeURIComponent(s), '_blank').focus();
 });
