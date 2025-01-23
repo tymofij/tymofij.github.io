@@ -51,6 +51,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
         output.textContent = "Text is not a valid JSON";
         return;
     }
+
     const binary = new TextEncoder().encode(textContent);
     const cyphered = xorWithKey(binary, SECRET)
     const base64encoded = uint8ArrayToBase64(cyphered)
@@ -71,7 +72,10 @@ function xorWithKey(input, key) {
 
 function isValidJSON(str) {
   try {
-    JSON.parse(str);
+    data = JSON.parse(str);
+    if (typeof data !== 'object') {
+      return false;
+    }
     return true;
   } catch (e) {
     return false;
