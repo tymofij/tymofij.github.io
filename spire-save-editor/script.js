@@ -38,6 +38,7 @@ dropArea.addEventListener('drop', (event) => {
             const obj = JSON.parse(jsonData);
             const sortedObj = Object.fromEntries(Object.entries(obj).sort())
             editor.getModel().setValue(JSON.stringify(sortedObj, null, 2))
+            editor.trigger('fold', 'editor.foldLevel2');
         };
         reader.readAsText(file);
         filename = file.name
