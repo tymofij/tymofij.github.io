@@ -15,6 +15,15 @@ h1 {
     color: #EFC851;
 }
 
+#docs {
+    margin-top: 200px;
+    font-size: 16px;
+}
+
+a {color: gold;}
+a:visited {color: gold;}
+
+
 #drop-area {
     border: 4px dashed #9C601F;
     font-size: 20px;

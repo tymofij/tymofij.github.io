@@ -35,7 +35,9 @@ dropArea.addEventListener('drop', (event) => {
             const binary = base64ToUint8Array(content)
             const decyphered = xorWithKey(binary, SECRET)
             const jsonData = new TextDecoder().decode(decyphered);
-            editor.getModel().setValue(jsonData)
+            const obj = JSON.parse(jsonData);
+            const sortedObj = Object.fromEntries(Object.entries(obj).sort())
+            editor.getModel().setValue(JSON.stringify(sortedObj, null, 2))
         };
         reader.readAsText(file);
         filename = file.name
