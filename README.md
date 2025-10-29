@@ -1,7 +1,7 @@
 Talks
 ====
 
-* November 2024 - San Francisco, USA - [1000 days of Russo-Ukrainian War](https://docs.google.com/presentation/d/1Kzm8c34eij1J_g0IKVDuzI27461Zx85AA5anjGUQn5g)
+* [Grokking Russo-Ukrainian War](https://docs.google.com/presentation/d/1Kzm8c34eij1J_g0IKVDuzI27461Zx85AA5anjGUQn5g)
 * July 2017 - EuroPython, Rimini - [Front-end testing with Python](https://ep2017.europython.eu/conference/talks/front-end-testing-with-python)
 * October 2015 – PyCon, Warsaw – [Data Science toolkit: NumPy, Pandas, Scikit-learn](https://github.com/tymofij/datascience-pandas-talk-pycon-pl)
 * November 2014 – Lviv.py – [Selenium PageObject: Bok-Choy](http://clear.com.ua/talks/bok-choy.pdf)
@@ -13,3 +13,9 @@ Talks
 * May 2010 – KPI, Kyiv – [What is an Open Government?](http://clear.com.ua/talks/opengov.odp)
 * March 2010 – OpenWebCamp, Kyiv (was one of organizers) – [Remixable web](http://clear.com.ua/talks/userscripts/)
 * October 2009 - Mozilla camp, Prague – [Using Silme L10N Library](http://clear.com.ua/talks/silme.odp)
+
+Things
+======
+
+* [Russian Nuclear Threats Spinner](/russia-spinner/)
+* [Slay the Spire Savefile Editor](/spire-save-editor/)
