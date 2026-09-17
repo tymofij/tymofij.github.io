@@ -63,15 +63,22 @@ body {
 }
 
 #note {
-  font: 16px sans-serif;
-  border-bottom-right-radius: 10px;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  border-bottom-right-radius: 30px;
   position: absolute;
   top:0;
   left:0;
-  width: 280px;
-  height: 40px;
+  width: 420px;
   background: white;
   padding: 10px;
+}
+
+#note h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
 
 #botinok {

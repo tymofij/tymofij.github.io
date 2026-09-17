@@ -5,7 +5,7 @@ const text = ["white", "black"]
 const n = colors.length
 
 const today = new Date();
-for (let year=2022; year <= 2024; year++) {
+for (let year=2022; year <= today.getFullYear(); year++) {
   for (let month=1; month <= 12; month++) {
     d = new Date(year, month, 1);
     if (d > today) {
@@ -18,14 +18,6 @@ for (let year=2022; year <= 2024; year++) {
   }
 }
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i >= 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
-
-shuffleArray(sectors)
 for (let i=0; i < sectors.length; i++) {
   sectors[i].color = colors[i % n]
   sectors[i].text = text[i % n]
@@ -81,7 +73,7 @@ function drawSector(sector, i) {
   ctx.rotate(ang + arc / 2);
   ctx.textAlign = "right";
   ctx.fillStyle = sector.text;
-  ctx.font = "bold 30px 'Lato', sans-serif";
+  ctx.font = "bold 22px 'Lato', sans-serif";
   ctx.fillText(sector.label, rad - 10, 10);
   //
 
