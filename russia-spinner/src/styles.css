@@ -136,3 +136,20 @@ body {
     pointer-events: none;
   }
 }
+
+/* Portrait phones: blow the wheel up and hang it to the left */
+@media (max-width: 700px) and (orientation: portrait) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #spin_the_wheel {
+    width: min(142vw, 92vh);
+    align-self: flex-end;
+  }
+
+  /* keep the label at 3% of the enlarged wheel width */
+  #spin {
+    font-size: min(4.26vw, 2.76vh);
+  }
+}
