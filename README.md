@@ -1,18 +1,25 @@
+Tim Babych
+==========
+
+Currently: Senior Software Engineer at Zillow
+
+Contact: tim@babych.dev
+
 Talks
 ====
 
-* [Grokking Russo-Ukrainian War](https://docs.google.com/presentation/d/1Kzm8c34eij1J_g0IKVDuzI27461Zx85AA5anjGUQn5g)
-* July 2017 - EuroPython, Rimini - [Front-end testing with Python](https://ep2017.europython.eu/conference/talks/front-end-testing-with-python)
-* October 2015 – PyCon, Warsaw – [Data Science toolkit: NumPy, Pandas, Scikit-learn](https://github.com/tymofij/datascience-pandas-talk-pycon-pl)
-* November 2014 – Lviv.py – [Selenium PageObject: Bok-Choy](http://clear.com.ua/talks/bok-choy.pdf)
-* June 2013 – Lviv.py – [Creating application-specific APIs on top of Django ORM](http://clear.com.ua/talks/pretty_orm.pdf)
-* September 2012 – OSDN Kyiv – [Mozilla's Firefox OS](http://clear.com.ua/talks/osdn-b2g/)
-* November 2011 – Mozilla Camp, Berlin – [Adofex, new addon l10n platform](http://clear.com.ua/talks/adofex.pdf)
-* April 2011 - Kyiv – [HTML5 here and now](http://clear.com.ua/talks/html5.pdf),  [youtube](http://www.youtube.com/watch?v=28MCjQwKTiM)
-* October 2011 - PyCon, Kyiv – [Transifex, the L10N Platform](http://clear.com.ua/talks/transifex.pdf)
-* May 2010 – KPI, Kyiv – [What is an Open Government?](http://clear.com.ua/talks/opengov.odp)
-* March 2010 – OpenWebCamp, Kyiv (was one of organizers) – [Remixable web](http://clear.com.ua/talks/userscripts/)
-* October 2009 - Mozilla camp, Prague – [Using Silme L10N Library](http://clear.com.ua/talks/silme.odp)
+* [Grokking Russo-Ukrainian War](https://docs.google.com/presentation/d/1Kzm8c34eij1J_g0IKVDuzI27461Zx85AA5anjGUQn5g) 2024, San Francisco
+* [Front-end testing with Python](https://ep2017.europython.eu/conference/talks/front-end-testing-with-python)2017, EuroPython, Rimini
+* [Data Science toolkit: NumPy, Pandas, Scikit-learn](https://github.com/tymofij/datascience-pandas-talk-pycon-pl) 2015, PyCon, Warsaw
+* [Selenium PageObject: Bok-Choy](http://clear.com.ua/talks/bok-choy.pdf) 2014, Lviv
+* [Creating application-specific APIs on top of Django ORM](http://clear.com.ua/talks/pretty_orm.pdf) 2013, Lviv
+* [Mozilla's Firefox OS](http://clear.com.ua/talks/osdn-b2g/) 2012, Kyiv
+* [Adofex, new addon l10n platform](http://clear.com.ua/talks/adofex.pdf) 2011, Berlin
+* [HTML5 here and now](http://clear.com.ua/talks/html5.pdf), [youtube](http://www.youtube.com/watch?v=28MCjQwKTiM) 2011, Kyiv
+* [Transifex, the L10N Platform](http://clear.com.ua/talks/transifex.pdf) 2011, Kyiv
+* [What is an Open Government?](http://clear.com.ua/talks/opengov.pdf) 2010, Kyiv
+* [Remixable web](http://clear.com.ua/talks/userscripts/) 2010, Kyiv
+* [Using Silme L10N Library](http://clear.com.ua/talks/silme.pdf) 2009, Prague
 
 Things
 ======
